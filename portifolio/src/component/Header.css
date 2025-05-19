@@ -1,0 +1,49 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.myName{border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.animated-name {border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+  animation-name: fadeInCenter, moveToCorner;
+  animation-duration: 1s, 2s;
+  animation-delay: 0s, 1s;
+  animation-fill-mode: forwards;
+}
+
+/* Step 1: Fade in at center */
+@keyframes fadeInCenter {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/* Step 2: Move to top-left */
+@keyframes moveToCorner {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    top: 2rem;
+    left: 2rem;
+    transform: translate(-10%, -110%);
+  }
+}

@@ -1,12 +1,14 @@
-
-
+import Header from "./component/header"
+import About from "./component/about/About"
+import Image from "./component/myImg/image";
 function App() {
- 
   return (
     <>
-      <h1>welcome to page </h1>
+      <Header />
+      <About />
+      <Image />
     </>
-  )
+  );
 }
 
 export default App

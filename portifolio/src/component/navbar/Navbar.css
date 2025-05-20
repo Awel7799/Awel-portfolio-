@@ -1,0 +1,43 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: aqua;
+}
+.navbar-container{
+  animation-name:movedown;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: -10%;
+  right: 1%;
+}
+.navbar-container ul{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+.navbar-container ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.navbar-container ul li{
+    display: flex;
+    gap: 10px;
+}
+/* Step 2: Move to top-left */
+@keyframes movedown {
+  0% {
+    top: -10%;
+    right: 1%;
+    transform: translate(0%,0%);
+  }
+  100% {
+    top: 5%;
+    right: 1rem;
+    transform: translate(0%, 0%);
+  }
+}

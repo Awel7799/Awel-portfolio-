@@ -1,29 +1,41 @@
+*{
+    background-color:#59598e;
+}
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
   overflow: hidden;
-  background-color: hwb(100% 70% 20%);
+  background-color:#0c0c16;
 }
 .aboutMe{
-    border: 1px solid black;
-    height: 100vh;
-    width: 100vw;
+    border: 1px solid rgb(244, 16, 16);
+    height: 90vh;
+    width: 90vw;
 }
 .aboutMe p{
-  border: 1px solid black;
+  border: 1px solid rgb(139, 34, 34);
   position: absolute;
   top: 50%;
-  left: -25%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  font-weight: bold;
+  left: -35%;
+  width: 400px;
+  height: 250px;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-style: oblique;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   animation-name:moveTomiddle;
-  animation-duration: 2s, 4s;
-  animation-delay: 1s, 3s;
+  animation-duration: 1s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
-
+.aboutMe button {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    height: 40px;
+    width: 100px;
+}
 /* Step 2: Move to top-left */
 @keyframes moveTomiddle {
   0% {
@@ -32,9 +44,9 @@ body, html {
     transform: translate(-50%, -50%);
   }
   100% {
-    top: 2rem;
+    top: 5rem;
     left: 2rem;
-    transform: translate(20%, 35%);
+    transform: translate(10%, 65%);
   }
 }
   

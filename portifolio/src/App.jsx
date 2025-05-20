@@ -1,12 +1,14 @@
-import Header from "./component/header"
+import Header from "./component/header/Header";
 import About from "./component/about/About"
 import Image from "./component/myImg/image";
+import Navbar from "./component/navbar/Navbar";
 function App() {
   return (
     <>
       <Header />
-      <About />
       <Image />
+      <About />
+      <Navbar />
     </>
   );
 }

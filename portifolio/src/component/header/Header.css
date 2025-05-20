@@ -4,20 +4,22 @@ body, html {
   height: 100%;
   overflow: hidden;
 }
-.myName{border: 1px solid black;
+.myName{
   height: 100vh;
   width: 100vw;
   position: relative;
 }
-.animated-name {border: 1px solid black;
+.animated-name {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
   font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style:oblique;
   animation-name: fadeInCenter, moveToCorner;
-  animation-duration: 1s, 2s;
+  animation-duration: 2s, 2s;
   animation-delay: 0s, 1s;
   animation-fill-mode: forwards;
 }
@@ -37,11 +39,15 @@ body, html {
 /* Step 2: Move to top-left */
 @keyframes moveToCorner {
   0% {
+    font-size: 3rem;
+    font-weight: bold;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   100% {
+    font-size: 2rem;
+    font-weight:lighter;
     top: 2rem;
     left: 2rem;
     transform: translate(-10%, -110%);

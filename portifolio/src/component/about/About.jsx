@@ -6,7 +6,10 @@ function About(){
                Awel i am possionate <br />
                 software enjineer <br />
                 dedicated to building <br />
-                rubest web abd moblie app</p>
+                rubest web abd moblie app <br />
+                <button>Contact</button>
+                </p><br />
+                
            </div>
     );
 }

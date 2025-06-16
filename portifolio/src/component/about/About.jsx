@@ -6,7 +6,7 @@ function About(){
                Awel i am possionate <br />
                 software enjineer <br />
                 dedicated to building <br />
-                rubest web abd moblie app <br />
+                rubest web and moblie app <br />
                 <button>Contact</button>
                 </p><br />
                 

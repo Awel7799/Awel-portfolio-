@@ -1,43 +1,49 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
-  background-color: aqua;
+.logo img{
+  height: 70px;
+  width: 70px;
+  margin-left: 3%;
+  border-radius: 50%;
 }
-.navbar-container{
-  animation-name:movedown;
-  animation-duration: 1s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
+.nav-links.open{
+  display: none;
+}
+.menu-toggle{
   position: absolute;
-  top: -10%;
-  right: 1%;
+  right: 5%;
+  top: 15px;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer; 
 }
-.navbar-container ul{
+.nav-links li{
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+.nav-links li a{
+ text-decoration: none;
+ color: black;
+ font-size: larger;
+}
+@media(min-width:766px){
+   .nav-links{
     display: flex;
-    gap: 10px;
-    text-decoration: none;
-}
-.navbar-container ul li a{
-    text-decoration: none;
-    color: aliceblue;
-
-}
-.navbar-container ul li{
+    justify-content: flex-end;
+    gap: 15px;
+    width: 70%;
+    margin-left: auto;
+    position: absolute;
+    right: 5%;
+    top: 5px;
+   }
+   .nav-links.open{
     display: flex;
-    gap: 10px;
-}
-/* Step 2: Move to top-left */
-@keyframes movedown {
-  0% {
-    top: -10%;
-    right: 1%;
-    transform: translate(0%,0%);
-  }
-  100% {
-    top: 5%;
-    right: 1rem;
-    transform: translate(0%, 0%);
-  }
+   }
+   .nav-links li{
+    margin: 1%;
+   }
+   .menu-toggle{
+    display: none;
+   }
 }

@@ -1,52 +1,18 @@
-*{
-    background-color:#59598e;
+.about-section{
+      border: 1px solid black;
+      position: relative;
+      top: 200px;
+      justify-items: center;
 }
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
-  background-color:#0c0c16;
+.about-section p{
+    width: 80%;
+    display: flex;
+    justify-self: center;
 }
-.aboutMe{
-    border: 1px solid rgb(244, 16, 16);
-    height: 90vh;
-    width: 90vw;
+@media(min-width:800px){
+    .about-section p{
+    width: 60%;
+    display: flex;
+    justify-self: center;
 }
-.aboutMe p{
-  border: 1px solid rgb(139, 34, 34);
-  position: absolute;
-  top: 50%;
-  left: -35%;
-  width: 400px;
-  height: 250px;
-  font-size: 2rem;
-  font-weight: lighter;
-  font-style: oblique;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  animation-name:moveTomiddle;
-  animation-duration: 1s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
 }
-.aboutMe button {
-    position: absolute;
-    top: 80%;
-    left: 15%;
-    height: 40px;
-    width: 100px;
-}
-/* Step 2: Move to top-left */
-@keyframes moveTomiddle {
-  0% {
-    top: 50%;
-    left: -25%;
-    transform: translate(-50%, -50%);
-  }
-  100% {
-    top: 5rem;
-    left: 2rem;
-    transform: translate(10%, 65%);
-  }
-}
-  

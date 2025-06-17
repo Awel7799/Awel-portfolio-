@@ -1,0 +1,78 @@
+.skill-section {
+    position: relative;
+    top: 300px;
+    margin-bottom: 200px;
+}
+/* Container with shadow fade on left/right */
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #f0f0f0;
+  padding: 40px 0;
+}
+
+.carousel {
+  display: flex;
+  width: max-content;
+  animation: spinCarousel 10s linear infinite;
+  transform-style: preserve-3d;
+  gap: 40px;
+}
+
+/* Individual cards */
+.card {
+  width: 160px;
+  height: 160px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: rotateY(0deg);
+  transition: transform 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.card p {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+/* 3D spinning animation */
+@keyframes spinCarousel {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Left and right shadow overlay */
+.carousel-wrapper::before,
+.carousel-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.carousel-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, #f0f0f0 0%, transparent 100%);
+}
+
+.carousel-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, #f0f0f0 0%, transparent 100%);
+}

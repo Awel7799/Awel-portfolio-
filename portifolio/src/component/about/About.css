@@ -2,6 +2,7 @@
       position: relative;
       top: 200px;
       justify-items: center;
+      height: 100vh;
 }
 .about-section p{
     width: 80%;

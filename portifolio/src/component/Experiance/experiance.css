@@ -1,6 +1,7 @@
 .experiance-section{
     position: relative;
     top: 1500px;
+    height: 100vh;
 }
 .experiance-section h1{
     display: flex;

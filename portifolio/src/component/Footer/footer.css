@@ -1,8 +1,63 @@
 .footer-class{
-    border: 1px solid black;
+    border: 1px solid rgb(197, 197, 171);
+    justify-content: center;
     position: relative;
-    top: 3100px;
+    top: 1400px;
+    height: auto;
+    margin-top: 100px;
+}
+.footer-class img{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   position: relative;
+   top: 15px;
+   left: 20px;
+}
+.footer-class h5{
+    justify-self: center;
+    position: relative;
+    top: -20px;
+}
+.footer-class div{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    gap: 2rem;
+}
+.footer-class div h1{ 
+    font-size: xx-large;
+}
+.footer-class div ul{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+    top: -50px;
+}
+.footer-class div ul li{
+    display: flex;
+    margin: 5px;
+}
+.footer-class div ul li a{
+    display: flex;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+#socialf ul{
+     display: flex;
+     justify-self: center;
+     justify-content: center;
+     gap: 20px;
+}
+#socialf ul li{
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: -10px;
+}
+#socialf ul li img{
+   width: 45px;
+   height: auto;
 }

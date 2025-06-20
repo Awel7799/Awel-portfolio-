@@ -1,22 +1,42 @@
 .project-section {
     position: relative;
-    top: 200px;
-    height: 100vh;
+    top: 100px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     justify-content: center;
 }
-
+.general-project-section {
+  display: block;
+   position: relative;
+    top: 700px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.general-project-section h1{
+  justify-self: center;
+  font-size: 3rem;
+  font-size: 4rem; /* Adjust as needed */
+  font-weight: 800;
+  background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA); /* matches text */
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .project-card{
   margin: 20px;
-  width: 460px;
+  width: 450px;
   height: 530px;
   background: white;
   border-radius: 12px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .project-card:hover{
   transform: scale(1.05);

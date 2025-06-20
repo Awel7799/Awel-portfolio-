@@ -1,17 +1,31 @@
+*{
+  background-color:transparent;
+}
 .skill-section {
     position: relative;
-    top: 300px;
+    top: 700px;
     margin-bottom: 200px;
+}
+.skill-section h1{
+  justify-self: center;
+  margin-bottom: 120px;
+  margin-left: 7%;
+  font-size: 4rem; /* Adjust as needed */
+  font-weight: 800;
+  background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA); /* matches text */
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* Container with shadow fade on left/right */
 .carousel-wrapper {
   position: relative;
   width: 100%;
   overflow: hidden;
-  background: #f0f0f0;
+  background: transparent;
   padding: 40px 0;
 }
-
 .carousel {
   display: flex;
   width: max-content;
@@ -19,12 +33,11 @@
   transform-style: preserve-3d;
   gap: 40px;
 }
-
 /* Individual cards */
 .card {
   width: 160px;
   height: 160px;
-  background: white;
+  background: transparent;
   border-radius: 12px;
   text-align: center;
   padding: 10px;
@@ -36,6 +49,10 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgb(178, 156, 211);
 }
 
 .card img {

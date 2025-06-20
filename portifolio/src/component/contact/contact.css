@@ -1,30 +1,41 @@
 .contact-section{
-    height: 100vh;
-    position:relative;
-    top: 2700px;
+  position: relative;
+  top: 1200px;
+  height: auto;
 }
 .contact-section h1{
     justify-self: center;
+    font-size: xx-large;
+    font-size: 3rem; 
+    font-size: 4rem; /* Adjust as needed */
+    font-weight: 800;
+    background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA); /* matches text */
+    color: transparent;
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .contact-container{
     width: 100%;
     height: auto;
     position: relative;
     top: 50px;
-    display: flex;
+    display: block;
 }
 .location{
-    border: 2px solid rgb(117, 197, 206);
-    width: 45%;
+    border: 1px solid rgb(227, 227, 204);
+    width: 75%;
     border-radius: 10px;
-    height: 300px;
+    height: auto;
     margin: 10px;
     bottom: 30px;
+    justify-self: center;
 }
 .location div{
     display: flex;
     justify-content:baseline;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .location div img{
     width: 40px;
@@ -34,25 +45,137 @@
     border-radius: 50%;
     padding: 5px;
 }
+.location div h3{
+    position: relative;
+    left: 10px;
+}
+.phone-logo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+}
+.phone-number{
+    position: relative;
+    left: 20px;
+    top: -10px;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+}
 #socialm h3{
-    justify-self: center;
+    justify-self: baseline;
+    margin:15px ;
+    font-size: xx-large;
+
 }
 #socialm{
     display: block;
 }
 #socialm ul{
-   display: flex;
+    display: flex;
+    justify-self: baseline;
     position: relative;
+    top: 15px;
+    left: 30px;
 }
 #socialm ul li{
     text-decoration: none;
-    margin: 4px;
     display: flex;
+    margin-right: 20px;
     position: relative;
+    left: -40px;
+
 }
 .contact-form{
-    border: 2px solid rgb(117, 197, 206);
+    border: 1px solid rgb(227, 227, 204);
     border-radius: 10px;
-    width: 50%;
+    padding: 10px;
+    width: 80%;
+    height: auto;
     margin:10px ;
+    justify-self: center;
+}
+.contact-form form {
+    display: block;
+}
+.contact-form form input{
+    display: block;
+    width: 92%;
+    margin-left: 2%;
+    border: 1px solid beige;
+    height: 40px;
+}
+.contact-form-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+input,
+textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4f46e5;
+}
+
+.submit-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #3730a3;
+}
+@media(min-width:770px){
+    .contact-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+.location{
+    width: 35%;
+}
+.contact-form{
+    width: 90%;
+}
+.contact-form-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0rem;
+}
 }

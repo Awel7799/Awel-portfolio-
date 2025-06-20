@@ -1,14 +1,57 @@
 .about-section{
       position: relative;
-      top: 200px;
+      top: 400px;
       justify-items: center;
-      height: 100vh;
+      height: auto;
 }
 .about-section p{
+    border: 1px solid rgb(203, 203, 188);
+    padding: 20px;
+    border-radius: 15px;
     width: 80%;
     display: flex;
     justify-self: center;
 }
+.about-section h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+/* Optional subtle style for the span inside h3 */
+.about-section h3 span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #444; /* Dark gray for visibility on white background */
+  opacity: 0.8;
+  margin-top: 0.3rem;
+
+  /* Remove any inherited gradient or clipping */
+  background: none;
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: initial;
+}
+/* Paragraph styling */
+.about-section p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.8;
+  text-align: justify;
+  margin: 0 auto;
+}
+
 @media(min-width:800px){
     .about-section p{
     width: 60%;

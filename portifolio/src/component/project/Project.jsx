@@ -2,7 +2,7 @@ import './Project.css';
 import photo from "../../asset/image.png";
 function Project(){
     return(
-        <section className='general-project-section'>
+        <section id='general-project-section' className='general-project-section'>
           <h1>My Latest Project</h1>
           <div className='project-section'>
             <div className='project-card'>

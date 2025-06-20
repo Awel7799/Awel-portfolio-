@@ -2,7 +2,7 @@ import image from '../../asset/_0037.jpg';
 import './Hero.css';
 function HeroSection(){
     return(
-        <section className='hero-section'>
+        <section id='hero-section' className='hero-section'>
             <img src={image} alt="Awel kassim" />
             <div class="bubble-background">
                      <span></span>
@@ -10,6 +10,9 @@ function HeroSection(){
                      <span></span>
                      <span></span>
                      <span></span>
+            </div>
+            <div>
+
             </div>
             <div className='hero-section-discription'>
               <h5><span>Hello 👋 , i am </span></h5>
@@ -20,7 +23,7 @@ function HeroSection(){
                   using the latest technology.
               </p>
               <div className="button-section">
-              <button className="btn-primary">Contact Me</button>
+              <button className="btn-primary"><a href="#contact-section">Contact Me</a></button>
               <button className="btn-outline">Download CV</button>
             </div>
             </div>

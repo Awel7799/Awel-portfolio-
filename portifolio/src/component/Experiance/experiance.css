@@ -6,32 +6,61 @@
 .experiance-section h1{
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-size: 3rem; 
-  font-size: 4rem; /* Adjust as needed */
-  font-weight: 800;
-  background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA); /* matches text */
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-size: 4rem; /* Adjust as needed */
+    font-weight: 800;
+    background: linear-gradient(135deg, #6EE7B7, #3B82F6, #9333EA); /* matches text */
+    color: transparent;
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.experiance-section div{
+  background-color: transparent;
+  border: 1px solid rgb(170, 160, 160);
+  width: 48%;
+  height: 200px;
+}
+.experiance-section div img {
+    width: 100%;
+    height: 70%;
+    border-radius:5px 5px 0px 0px;
 }
 @keyframes growLine {
   0% { height: 0; }
   100% { height: 100vh; }
 }
 .first-experiance{
-    border: 1px solid black;
-    width: 46%;
-    height: 300px;
     border-radius: 10px;
+    width: 40;
 }
 .second-experiance{
-    border: 1px solid black;
-    width: 46%;
-    height: 300px;
     display: flex;
     justify-self: end;
-    justify-content: end;
     border-radius: 10px;
+}
+@media(min-width:550px){
+  .experiance-section div{
+  width: 48%;
+  height: 300px;
+}
+}
+@media(min-width:750px){
+  .experiance-section div{
+  width: 48%;
+  height: 400px;
+}
+}
+@media(min-width:1000px){
+  .experiance-section div{
+  width: 48%;
+  height: 500px;
+}
+}
+@media(min-width:1300px){
+  .experiance-section div{
+  width: 48%;
+  height: 650px;
+}
 }

@@ -6,15 +6,15 @@ function Navbar(){
     return(
         <nav className='navbar'>
             <div className='logo'>
-             <img src={logo} alt="my logo" />
+             <a href="#hero-section"><img src={logo} alt="my logo" /></a>
             </div>
             <ul className={`nav-links ${open ? "open" : ""}`}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">About</a></li>
-                <li><a href="#home">Skill</a></li>
-                <li><a href="#home">project</a></li>
-                <li><a href="#home">Experience</a></li>
-                <li><a href="#home">Contact</a></li>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#skill-section">Skill</a></li>
+                <li><a href="#general-project-section">project</a></li>
+                <li><a href="#experiance-section">Experience</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
             <button className='menu-toggle' onClick={()=> setOpen(!open)}>
                  ☰

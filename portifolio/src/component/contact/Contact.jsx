@@ -6,7 +6,7 @@ import github from "../../asset/github-icon.svg";
 import linkedin from "../../asset/linkedin-icon-2.svg"
 function Contact(){
     return(
-        <section className='contact-section'>
+        <section id='contact-section' className='contact-section'>
          <h1>get in touch <span> CONTACT</span></h1>
          <div className='contact-container'>
             <div className='location'>

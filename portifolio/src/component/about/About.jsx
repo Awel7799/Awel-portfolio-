@@ -1,7 +1,7 @@
 import './About.css';
 function About(){
     return(
-        <section className='about-section'>
+        <section id='about-section' className='about-section'>
             <h3>ABOUT ME <span>who i am </span></h3>
             <p>Hey there! I’m Awel Kassim, a Full Stack Web 
             and Mobile App Developer with a strong focus

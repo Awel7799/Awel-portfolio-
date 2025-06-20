@@ -65,7 +65,9 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
-
+.button-section button a{
+  text-decoration: none;
+}
 .button-section button:first-child {
   padding: 0.6rem 1.5rem;
   font-weight: 600;

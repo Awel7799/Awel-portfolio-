@@ -12,7 +12,7 @@ import js from "../../asset/javascript-1.svg";
 import css from "../../asset/css-3.svg";
 function skill(){ 
     return(
-        <section className='skill-section'>
+        <section id='skill-section' className='skill-section'>
           <h1>Technical Expertise</h1>
                 <div class="carousel-wrapper">
   <div class="carousel">

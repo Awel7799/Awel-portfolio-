@@ -23,7 +23,7 @@ function Project(){
                   <img src="https://github.com/user-attachments/assets/6ae26543-f657-4a8b-9ed9-b4daf422f3a6" alt="" />
                   <img src="https://github.com/user-attachments/assets/52bea132-e41b-441c-85a7-f5f33ee2aca4" alt="" />
               </div>
-              <div>
+              <div className='project-discription'>
                   <h2 id='tittle'>Real Estate Listing and Management Platform</h2>
                   <p>A web-based system that enables real estate agents to list properties for sale or rent.
                      Includes a powerful admin dashboard to manage agents and property listings.
@@ -39,7 +39,7 @@ function Project(){
                   <img src={header} alt="" />
                   <img src={cars} alt="" />
               </div>
-              <div>
+              <div className='project-discription'>
                 <h2> Responsive Car Landing Page with Shopping Cart</h2>
                 <p>A modern, fully responsive landing page for showcasing cars across all devices.
                      Features a dynamic image gallery and shopping cart for user interactions.

@@ -24,9 +24,9 @@ function Footer(){
        </div>
         <div id='socialf'>            
           <ul>
-             <li><a href="#link"><img src={telegram} alt="" /></a></li>
-             <li> <a href="#link"><img src={github} alt="" /></a></li>
-             <li><a href="#link"><img src={linkedin} alt="" /></a></li>
+             <li><a href="@Awelksm"><img src={telegram} alt="" /></a></li>
+             <li> <a href="https://github.com/Awel7799"><img src={github} alt="" /></a></li>
+             <li><a href="www.linkedin.com/in/awel-kassim-a71502331"><img src={linkedin} alt="" /></a></li>
           </ul>
       </div>
        

@@ -28,7 +28,7 @@ function Project(){
                   <p>A web-based system that enables real estate agents to list properties for sale or rent.
                      Includes a powerful admin dashboard to manage agents and property listings.
                      Built with HTML, CSS, JavaScript (frontend), Java Servlet, and MySQL (backend).</p>
-                  <a href="">live demo</a>
+                 <button> <a href="https://github.com/Awel7799/Real-state-management-system-">Github repo</a></button>
               </div>
           </div>
           <div className='project-card'>
@@ -44,7 +44,7 @@ function Project(){
                 <p>A modern, fully responsive landing page for showcasing cars across all devices.
                      Features a dynamic image gallery and shopping cart for user interactions.
                      Developed using React and CSS for a seamless frontend experience.</p>
-                     <a href="">live demo</a>
+                     <button><a href="https://github.com/Awel7799/Your-Car-">Github repo</a></button><button><a href="https://yourcareapp.netlify.app/">watch live</a></button>
               </div>
           </div><div className='project-card'>
               <div className='first-image-container'>
@@ -60,7 +60,7 @@ function Project(){
                 <p>An end-to-end e-commerce platform for buyers and sellers to interact.
                     Includes product filtering, cart functionality, seller dashboard, and admin panel.
                     Built with HTML, CSS, JavaScript (frontend) and PHP, MySQL (backend).</p>
-                    <a href="">live demo</a>
+                    <button><a href="https://github.com/Awel7799/E-shop">Github repo</a></button>
               </div>
           </div><div className='project-card'>
               <div className='first-image-container'>
@@ -76,7 +76,7 @@ function Project(){
                 <p>A clean, responsive landing page designed to highlight premium furniture products.
                    Optimized for all screen sizes with elegant layout and visual appeal.
                    Crafted using HTML and CSS to ensure a smooth user experience.</p>
-                   <a href="">live demo</a>
+                   <button><a href="https://github.com/Awel7799">Github repo</a></button>
               </div>
           </div>
           </div>

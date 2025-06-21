@@ -27,9 +27,9 @@ function Contact(){
               <div id='socialm'>
                 <h3>lets connect on </h3>
                 <ul>
-                    <li><img src={telegram} alt="" /></li>
-                    <li> <img src={github} alt="" /></li>
-                    <li><img src={linkedin} alt="" /></li>
+                     <li><a href="@Awelksm"><img src={telegram} alt="" /></a></li>
+                     <li> <a href="https://github.com/Awel7799"><img src={github} alt="" /></a></li>
+                     <li><a href="www.linkedin.com/in/awel-kassim-a71502331"><img src={linkedin} alt="" /></a></li>
                 </ul>
               </div>
             </div>

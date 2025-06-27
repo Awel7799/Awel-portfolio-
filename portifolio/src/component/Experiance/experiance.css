@@ -21,7 +21,7 @@
   display: block;
   border: 1px solid rgb(170, 160, 160);
   width: 48%;
-  height: 200px;
+  height: auto;
 }
 .experiance-section div img {
     width: 100%;
@@ -36,6 +36,7 @@
     border-radius: 10px;
     width: 40;
     height: auto;
+    background-color: #3B82F6;
 }
 .second-experiance{
     display: flex;

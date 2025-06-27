@@ -7,7 +7,7 @@
     height: 400px;
     width: 380px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     display: flex;
     justify-self: center;  
 }
@@ -175,6 +175,10 @@
     max-width: 40%;
     margin-left: 0%;
   }
+  .hero-section img{
+    object-fit: cover;
+     
+}
 }
 @media(min-width:1000px){
  .hero-section{
